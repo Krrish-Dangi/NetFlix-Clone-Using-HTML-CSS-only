@@ -3,4 +3,4 @@
 A frontend-only Netflix UI clone built using HTML and CSS.
 
 Live demo:
-[https://YOUR_USERNAME.github.io/netflix-ripoff/](https://krrish-dangi.github.io/NetFlix-Clone-Using-HTML-CSS-only/)
+https://krrish-dangi.github.io/NetFlix-Clone-Using-HTML-CSS-only/
