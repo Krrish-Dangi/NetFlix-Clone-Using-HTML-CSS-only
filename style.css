@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.main{
+    background-image: url('resources/bg.png');
+    height: 100vh;
+    width: max(1200px,100vw);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    /* background-color: red; */
+    height: 90px;
+}
+
+.logo{
+    position: relative;
+    z-index: 1;
+    width: 150px;
+}
+
+.Lang{
+    position:relative;
+    z-index: 1;
+    height:30px;
+    width:90px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.sign{
+    position:relative;
+    z-index: 1;
+    height:30px;
+    width:80px;
+    font-size: medium;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 13px;
+}
+
+.Text{
+    top: 110px;
+    display: flex;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.I{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.II{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.III{
+    font-size: 1rem;
+}
+
+.input-box{
+    position: relative;
+    top: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.email{
+    height: 50px;
+    width: 410px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1.5px solid rgb(172, 172, 172);
+    color: white;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.get-started{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.seperater{
+    height: 3px;
+    background-color: grey;
+    width: max(1200px,100vw);
+}
+
+.part2{
+    background-color: black;
+    height: 100vh;
+    width: max(1200px,100vw);
+}
+
+.Trending{
+    background-color: black;
+    display : flex;
+    flex-direction: column;
+}
+
+#heading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.Movies{
+    display: flex;
+    padding-left: 180px;
+    padding-top: 30px;
+    border-radius: 10px;
+    gap: 70px;
+}
+
+.movie{
+    position: relative;
+}
+
+.no{
+    position: absolute;
+    top: 140px;
+    left: -32px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -2px -2px 0 white,
+     2px -2px 0 white,
+    -2px  2px 0 white,
+     2px  2px 0 white,
+    -2px  0   0 white,
+     2px  0   0 white,
+     0   -2px 0 white,
+     0    2px 0 white;
+    font-weight: 900;
+    font-size: 124px;
+    z-index: 2;
+}
+
+.Reasons-join{
+    background-color: black;
+    display : flex;
+    flex-direction: column;
+}
+
+#head{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.Reasons{
+    display: flex;
+    padding-left: 170px;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.r1{
+    height: 250px;
+    width: 255px;
+    background: linear-gradient(135deg, #1A1F40, #210E17);
+    color: white;
+    border-radius: 25px;
+}
+
+.r1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px;
+}
+
+.topic{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.desc{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #c1c1c1;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-self: flex-end;
+    margin-top: auto;
+    
+}
+
+.i1{
+    background-image: url('./resources/icon1.svg');
+    height: 72px;
+    width: 72px;
+}
+
+.i2{
+    background-image: url('./resources/icon2.svg');
+    height: 72px;
+    width: 72px;
+}
+
+.i3{
+    background-image: url('./resources/icon3.svg');
+    height: 72px;
+    width: 72px;
+}
+
+.i4{
+    background-image: url('./resources/icon4.svg');
+    height: 72px;
+    width: 72px;
+}
+
